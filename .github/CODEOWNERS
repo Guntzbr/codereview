@@ -2,3 +2,4 @@
 .github/ricardoguntzell
 *.go @ricardoguntzell
 *.java @ricardoguntzell
+*.html
