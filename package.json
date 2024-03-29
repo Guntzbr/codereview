@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "author": "Guntz",
   "license": "ISC",
@@ -12,10 +13,5 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "husky": "^9.0.11"
-  },
-  "husky":{
-    "hooks":{
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
